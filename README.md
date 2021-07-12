@@ -87,7 +87,7 @@ catkin_package(
 
 - package.xml
 
-```jsx
+```xml
 <build_depend>message_generation</build_depend>
 <build_export_depend>message_runtime</build_export_depend>
 <exec_depend>message_runtime</exec_depend>
@@ -95,7 +95,7 @@ catkin_package(
 
 message를 generate하고 run한다는 의존성을 추가한다. 여기서 사용자 custom message의 타입에 맞게 의존성을 추가해줄 수 있다.
 
-```jsx
+```xml
 // example: std_msgs 타입과 geometry_msgs 타입이 필요한 경우
 <build_depend>std_msgs</build_depend>
 <build_depend>geometry_msgs</build_depend>
@@ -107,7 +107,7 @@ message를 generate하고 run한다는 의존성을 추가한다. 여기서 사�
 
 메세지, 서비스, 액션은 std_msgs처럼 다른 ROS 메세지에서 정의된 자료형을 사용할 수 있다. 메세지 의존성을 표시할 때는 <depend> 태그가 적절하다.
 
-```jsx
+```xml
 // example: std_msgs, 액션 이용을 위해 actionlib_msgs 이용
 <depend>std_msgs</depend>
 <depend>actionlib_msgs</depend>
