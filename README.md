@@ -134,7 +134,7 @@ subscribe는 토픽명, 메세지 타입, callback함수를 인자로 받는다.
 ### 5. Example (Talker & Listener)
 
 string name, int32 age를 갖는 custom message를 생성하고 publish, subscribe를 통해 통신한 예제이다.
+![talker](https://user-images.githubusercontent.com/26399303/125231824-6e0c0800-e316-11eb-904f-1359ac475f60.png)
+![listener](https://user-images.githubusercontent.com/26399303/125231837-706e6200-e316-11eb-8d24-0c13c47eae18.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/94e8816b-2343-43ae-9cfe-916704ee2d25/talker.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/94e8816b-2343-43ae-9cfe-916704ee2d25/talker.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1c64870-f3a8-4595-ab1b-c6c25ad5385a/listener.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1c64870-f3a8-4595-ab1b-c6c25ad5385a/listener.png)
