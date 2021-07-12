@@ -1,0 +1,15 @@
+{
+  "name": "pub_sub",
+  "version": "1.0.0",
+  "description": "custom msg tutorial with JS",
+  "scripts":{
+    "talker" : "node scripts/talker.js",
+    "listener" :"node scripts/listener.js"
+  },
+  "author": "sgu0927",
+  "license": "MIT",
+  "dependencies": {
+    "rosnodejs" :"^3.0.2"
+  },
+  "private": false
+}
