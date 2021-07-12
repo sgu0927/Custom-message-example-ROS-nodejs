@@ -1,5 +1,3 @@
-# Custom-message-example-ROS-nodejs
-
 ## How to generate ROS Node using JS
 
 ---
